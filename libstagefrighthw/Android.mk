@@ -33,6 +33,7 @@ LOCAL_SHARED_LIBRARIES :=       \
         libdl                   \
         libui                   \
 
+LOCAL_CLANG := true
 LOCAL_MODULE := libstagefrighthw
 
 include $(BUILD_SHARED_LIBRARY)
